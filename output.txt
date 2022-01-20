@@ -1,0 +1,165 @@
+Script started on Thu 03 Dec 2020 10:38:41 PM HST
+]0;sumidaca@uhx02:~/project2[?1034huhx02:/home/s/sumidaca/project2% exitmake -f release.mak[8Ptouch *.cppmake -f debug.makexit[Kmake -f debug.makexit[Kquitmake -f release.mak[8Ptouch *.cppmake -f debug.mak[5Pvi llist.cppmake -f debug.mak[6Ptouch *.cppmake -f release.makquit[Kexitmake -f debug.makexit[Kmake -f debug.mak[6Ptouch *.cppmake -f release.makexit[K[K./project
+
+This is the bank record database
+
+Please choose an option below:
+add: Add a new record in the database
+print all: Print all records in the database
+find: Find records with a specified account #
+delete: Delete existing records from the database using the account # as a key
+quit: Quit the program
+
+option: p
+
+Input accepted as print all
+
+There are no records to print
+This is the bank record database
+
+Please choose an option below:
+add: Add a new record in the database
+print all: Print all records in the database
+find: Find records with a specified account #
+delete: Delete existing records from the database using the account # as a key
+quit: Quit the program
+
+option: a
+
+Input accepted as add
+
+Please input account number: 1234
+
+Please input name:First Last
+
+Input address. Hit enter on a blank line to quit:1234 Some St.,
+City, State,=   Zip
+
+This is the bank record database
+
+Please choose an option below:
+add: Add a new record in the database
+print all: Print all records in the database
+find: Find records with a specified account #
+delete: Delete existing records from the database using the account # as a key
+quit: Quit the program
+
+option: p
+
+Input accepted as print all
+
+Account number: 1234
+Name: First Last
+Address: 1234 Some St.,
+City, State Zip
+
+This is the bank record database
+
+Please choose an option below:
+add: Add a new record in the database
+print all: Print all records in the database
+find: Find records with a specified account #
+delete: Delete existing records from the database using the account # as a key
+quit: Quit the program
+
+option: q
+
+Input accepted as quit
+
+]0;sumidaca@uhx02:~/project2uhx02:/home/s/sumidaca/project2% ./project_debug
+Function: readfile
+
+This is the bank record database
+
+Please choose an option below:
+add: Add a new record in the database
+print all: Print all records in the database
+find: Find records with a specified account #
+delete: Delete existing records from the database using the account # as a key
+quit: Quit the program
+
+option: a p
+
+Input accepted as print all
+
+Function: printAllRecords
+
+Account number: 1234
+Name: First Last
+Address: 1234 Some St.,
+City, State Zip
+
+This is the bank record database
+
+Please choose an option below:
+add: Add a new record in the database
+print all: Print all records in the database
+find: Find records with a specified account #
+delete: Delete existing records from the database using the account # as a key
+quit: Quit the program
+
+option: d
+
+Input accepted as delete
+
+Function: accountNo
+Parameters: none
+
+Please input account number: 1234
+
+Function: deleteRecord
+Parameters: accountNo: 1234
+
+Record was deleted
+
+This is the bank record database
+
+Please choose an option below:
+add: Add a new record in the database
+print all: Print all records in the database
+find: Find records with a specified account #
+delete: Delete existing records from the database using the account # as a key
+quit: Quit the program
+
+option: ad
+
+Input accepted as add
+
+Function: accountNo
+Parameters: none
+
+Please input account number: 123
+
+Please input name:Name
+
+Function: getAddress
+Parameters: address: , number: 80
+
+Input address. Hit enter on a blank line to quit:Adress Line #1
+Address Line #1 2
+Line #3
+
+Function: addRecord
+Parameters: accountNo: 123, name: Name, address: Adress Line #1
+Address Line #2
+Line #3
+
+This is the bank record database
+
+Please choose an option below:
+add: Add a new record in the database
+print all: Print all records in the database
+find: Find records with a specified account #
+delete: Delete existing records from the database using the account # as a key
+quit: Quit the program
+
+option: q
+
+Input accepted as quit
+
+Function: writefile
+Function: cleanup
+]0;sumidaca@uhx02:~/project2uhx02:/home/s/sumidaca/project2% exit
+exit
+
+Script done on Thu 03 Dec 2020 10:41:34 PM HST

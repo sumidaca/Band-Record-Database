@@ -1,0 +1,14 @@
+Script started on Thu 03 Dec 2020 10:17:57 PM HST
+]0;sumidaca@uhx02:~/project2[?1034huhx02:/home/s/sumidaca/project2% exitmake -f debug.makexit[Kquitexitmake -f debug.mak
+g++ -DDEBUGMODE -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -DDEBUGMODE -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -o project_debug user_interface.o llist.o
+]0;sumidaca@uhx02:~/project2uhx02:/home/s/sumidaca/project2% make -f debug.makexit[Kmake -f debug.makexit[Kquitmake -f release.mak[8Ptouch *.cpp
+]0;sumidaca@uhx02:~/project2uhx02:/home/s/sumidaca/project2% touch *.cppmake -f debug.makexit[Kmake -f debug.makexit[Kquitmake -f release.mak
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -o project user_interface.o llist.o
+]0;sumidaca@uhx02:~/project2uhx02:/home/s/sumidaca/project2% make -f release.mak[8Ptouch *.cppmake -f debug.makexit[K
+exit
+
+Script done on Thu 03 Dec 2020 10:18:16 PM HST
